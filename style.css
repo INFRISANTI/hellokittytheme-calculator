@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://hellokitty50th.sanrio.co.jp/en/assets/images/common/bg_01_pc.webp);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+} 
+
+/* display box */
+.display {
+    width: 200px;
+    height: 40px;
+    margin: 2px;
+    border: none;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: #edf6f2;
+}
+
+/* calculator body */
+.calculator{
+    width: auto;
+    height: 290px;
+    margin: auto;
+    background-color: #de0404;
+    border-style: solid;
+    border-width: 3px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+  /* buttons */
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+button {
+    /* font */
+    width: 10px;
+    height: 10px;
+    font-family: "helvetica";
+    font-weight: 700;  
+    font-size: 16px;
+    color: #010a3a;
+    /* border */
+    border: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: #ffffff;
+    border-radius: 30%;
+    /* display */
+    display: inline grid;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 2px;
+}
+
+button:hover{
+    background-color:#869aff;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.operator{
+    background-color: rgb(6, 52, 255);
+    color: #ffffff;
+}
+
+.equal {
+    width: 200;
+    border-radius: 0%;
+    padding: 20px;
+    background-color: rgb(255, 160, 18);
+    color: #ffffff;
+}
